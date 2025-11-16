@@ -1,8 +1,8 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/sistema-aulas/', // <-- ADICIONE ISSO
+  base: '/sistema-aulas/', // Substitua 'sistema-aulas' pelo nome do seu repositório
 })
